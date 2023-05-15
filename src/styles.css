@@ -1,0 +1,50 @@
+body {
+  background-image: url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+h1 {
+  padding: 50px;
+  text-align: center;
+}
+img {
+  display: flex;
+  position: relative;
+  float: right;
+  right: 160px;
+}
+.temp {
+  text-align: center;
+  font-size: 40px;
+}
+
+.datetime {
+  display: flex;
+  position: relative;
+  float: right;
+  top: -75px;
+}
+
+.pink {
+  width: 90%;
+  max-width: 500px;
+  background: pink;
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: 40px 35px;
+  margin-bottom: 50px;
+}
+.flink {
+  display: flex;
+  position: relative;
+  float: right;
+  top: -24px;
+  right: 400px;
+}
+.source {
+  color: white;
+  text-align: center;
+}
